@@ -14,7 +14,7 @@ gem 'meta_search', ">= 1.1.0.pre"
 gem "foreman"
 gem "unicorn"
 gem "redcarpet"
-gem "heroku"
+gem "heroku", ">= 3.99.4"
 gem 'coffee-rails', '~> 3.2.1'
 gem 'omniauth'
 gem 'omniauth-twitter'
@@ -26,7 +26,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 1.3.0', :require => false
   gem 'pry'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
