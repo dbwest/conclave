@@ -14,7 +14,7 @@ gem 'meta_search', ">= 1.1.0.pre"
 gem "foreman"
 gem "unicorn"
 gem "redcarpet"
-gem "heroku"
+gem "heroku", ">= 3.99.4"
 gem 'coffee-rails', '~> 3.2.1'
 gem 'omniauth'
 gem 'omniauth-twitter'
