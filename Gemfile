@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '4.0.0'
 gem 'jquery-rails'
 gem 'slim'
 gem "slim-rails"
@@ -9,7 +9,7 @@ gem 'devise'
 gem 'cancan'
 gem 'paperclip'
 gem 'aws-sdk'
-gem 'activeadmin'
+gem 'activeadmin', '>= 0.5.0'
 gem 'meta_search', ">= 1.1.0.pre"
 gem "foreman"
 gem "unicorn"
