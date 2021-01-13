@@ -13,12 +13,12 @@ gem 'activeadmin'
 gem 'meta_search', ">= 1.1.0.pre"
 gem "foreman"
 gem "unicorn"
-gem "redcarpet"
+gem "redcarpet", ">= 3.5.1"
 gem "heroku"
 gem 'coffee-rails', '~> 3.2.1'
-gem 'omniauth'
+gem 'omniauth', '>= 2.0.0'
 gem 'omniauth-twitter'
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '>= 1.6.0'
 
 gem 'unread'
 
