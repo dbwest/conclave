@@ -17,7 +17,7 @@ gem "redcarpet"
 gem "heroku"
 gem 'coffee-rails', '~> 3.2.1'
 gem 'omniauth'
-gem 'omniauth-twitter'
+gem 'omniauth-twitter', '>= 0.0.13'
 gem 'omniauth-facebook'
 
 gem 'unread'
