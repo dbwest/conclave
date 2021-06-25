@@ -1,15 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '4.0.0'
 gem 'jquery-rails'
 gem 'slim'
 gem "slim-rails"
 gem 'simple_form'
 gem 'devise'
 gem 'cancan'
-gem 'paperclip'
+gem 'paperclip', '>= 3.1.4'
 gem 'aws-sdk'
-gem 'activeadmin'
+gem 'activeadmin', '>= 0.5.0'
 gem 'meta_search', ">= 1.1.0.pre"
 gem "foreman"
 gem "unicorn"
@@ -20,7 +20,7 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 
-gem 'unread'
+gem 'unread', '>= 0.1.1'
 
 group :development, :test do
   gem 'sqlite3'
