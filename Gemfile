@@ -10,7 +10,7 @@ gem 'cancan'
 gem 'paperclip'
 gem 'aws-sdk'
 gem 'activeadmin'
-gem 'meta_search', ">= 1.1.0.pre"
+gem 'meta_search', '>= 1.1.3'
 gem "foreman"
 gem "unicorn"
 gem "redcarpet"
