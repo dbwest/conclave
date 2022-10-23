@@ -10,15 +10,15 @@ gem 'cancan'
 gem 'paperclip'
 gem 'aws-sdk'
 gem 'activeadmin'
-gem 'meta_search', ">= 1.1.0.pre"
+gem 'meta_search', '>= 1.1.3'
 gem "foreman"
 gem "unicorn"
 gem "redcarpet"
 gem "heroku"
-gem 'coffee-rails', '~> 3.2.1'
+gem 'coffee-rails', '~> 3.2.2'
 gem 'omniauth'
 gem 'omniauth-twitter'
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '>= 1.6.0'
 
 gem 'unread'
 
@@ -40,7 +40,7 @@ group :production do
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 3.2.5'
   gem 'uglifier', '>= 1.0.3'
   gem 'compass-rails'
 end
