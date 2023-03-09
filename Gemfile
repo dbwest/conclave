@@ -1,24 +1,24 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
-gem 'jquery-rails'
+gem 'rails', '5.0.0'
+gem 'jquery-rails', '>= 4.0.1'
 gem 'slim'
-gem "slim-rails"
-gem 'simple_form'
-gem 'devise'
+gem "slim-rails", ">= 3.1.0"
+gem 'simple_form', '>= 3.2.1'
+gem 'devise', '>= 4.0.0'
 gem 'cancan'
 gem 'paperclip'
 gem 'aws-sdk'
 gem 'activeadmin'
-gem 'meta_search', ">= 1.1.0.pre"
+gem 'meta_search', '>= 1.1.3'
 gem "foreman"
 gem "unicorn"
 gem "redcarpet"
 gem "heroku"
-gem 'coffee-rails', '~> 3.2.1'
+gem 'coffee-rails', '~> 4.1.1'
 gem 'omniauth'
 gem 'omniauth-twitter'
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '>= 1.6.0'
 
 gem 'unread'
 
@@ -32,7 +32,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'email_spec'
   gem 'timecop'
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.0.2'
 end
 
 group :production do
@@ -40,7 +40,7 @@ group :production do
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 5.0.5'
   gem 'uglifier', '>= 1.0.3'
   gem 'compass-rails'
 end
