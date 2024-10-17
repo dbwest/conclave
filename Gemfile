@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '6.1.7.9'
 gem 'jquery-rails'
 gem 'slim'
 gem "slim-rails"
@@ -9,7 +9,7 @@ gem 'devise'
 gem 'cancan'
 gem 'paperclip'
 gem 'aws-sdk'
-gem 'activeadmin'
+gem 'activeadmin', '>= 2.0.0'
 gem 'meta_search', ">= 1.1.0.pre"
 gem "foreman"
 gem "unicorn"
@@ -40,7 +40,7 @@ group :production do
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'uglifier', '>= 1.0.3'
   gem 'compass-rails'
 end
