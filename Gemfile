@@ -25,7 +25,7 @@ gem 'unread'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'cucumber-rails', :require => false
   gem 'pry'
   gem 'factory_girl_rails'
