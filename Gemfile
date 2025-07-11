@@ -8,7 +8,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'cancan'
 gem 'paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 1.52.0'
 gem 'activeadmin'
 gem 'meta_search', ">= 1.1.0.pre"
 gem "foreman"
@@ -26,7 +26,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 3.0.0', :require => false
   gem 'pry'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
