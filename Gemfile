@@ -8,7 +8,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'cancan'
 gem 'paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 1.8.1.1'
 gem 'activeadmin'
 gem 'meta_search', ">= 1.1.0.pre"
 gem "foreman"
